@@ -74,6 +74,10 @@ public class Record implements Serializable {
 	public Game getGame() {
 		return game;
 	}
+	
+	public void setGame(Game game) {
+		this.game = game;
+	}
 
 	@Override
 	public int hashCode() {
