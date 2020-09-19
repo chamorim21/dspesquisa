@@ -6,7 +6,7 @@ import { formatDate } from './helpers';
 import Pagination from './Pagination';
 import Filters from '../../components/Filters';
 
-const BASE_URL = 'http://dspesquisa-amorim.herokuapp.com'
+const BASE_URL = 'https://dspesquisa-amorim.herokuapp.com'
 
 const Records = () => {
     const [recordsResponse, setRecordsResponse] = useState<RecordsResponse>();
