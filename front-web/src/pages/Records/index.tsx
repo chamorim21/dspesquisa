@@ -53,6 +53,7 @@ const Records = () => {
                 goToPage={handlePageChange}
                 totalPages={recordsResponse?.totalPages} />
         </div>
+
     )
 };
 
